@@ -1,4 +1,111 @@
+
+*{
+  box-sizing: border-box;
+}
+header {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-bg {
+  background-color: rgb(118, 219, 219);
+  font-size: 1em;
+  z-index: 99;
+  position: relative;
+
+}
+.navbar li {
+  padding: 0 2rem;
+}
+
+.navbar li a:hover{
+  text-shadow: 0 0.3rem 0.4rem grey;
+
+}
+
+.home-container{
+
+  
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: contain;
+}
+.home-container img{
+  object-fit: inherit;
+  
+}
+
+.home-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -450px;
+}
+
+.home-container  p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  
+}
+
+.slider{
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-image{
+  width: 1000px;
+  height: 80vh! important;
+  border-radius: 6px;
+}
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 32px;
+
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +117,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

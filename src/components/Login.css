@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --body-font: 'Open Sans', sans-serif;
+    --font-medium: 400;
+    --font-semi-bold: 700;
+    --primary-color: rgb(8, 153, 179);
+    --white-color: #fff;
+    --black-color: black;
+    --body-color: rgb(82, 136, 114);
+    --border-color: #e4e8ee;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    box-sizing: border-box;
+}
+
+
+ body{
+    position: relative;
+    
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} 
+
+.wrapper{
+    padding: 50px 25px 0;
+    max-width: 668px;
+    width: 100%;
+    margin: auto; 
+} 
+
+ .wrapper::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    z-index: -1;
+
+} 
+
+.wrapper .heading{
+    text-align: center;
+    padding-bottom: 48px;
+
+} 
+.wrapper .heading h1{
+    font-size: 42px;
+    font-weight: var(--font-semi-bold);
+    line-height: 52px;
+
+} 
+
+.wrapper .form{
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+} 
+.wrapper .form-group{
+    margin-bottom: 15px;
+} 
+
+.wrapper .form-group input{
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    padding: 11px 15px;
+    height: 48px;
+    border-radius: 5px;
+    color: var(--black-color);
+    border: 1px solid var(--border-color);
+    box-shadow: none;
+    width: 100%;
+} 
+
+.wrapper .form-group input:focus{
+    outline: none;
+
+} 
+.wrapper .form-group input::placeholder{
+    color: var(--black-color);
+    font-weight: var(--font-medium);
+    font-size: 14px;
+
+} 
+
+.wrapper .btn{
+    width: 100%;
+    margin: 15px 0 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: var(--font-semi-bold);
+    padding: 12px 29px;
+    height: 48px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+} 
