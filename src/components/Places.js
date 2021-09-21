@@ -11,7 +11,7 @@ function Places() {
             <div className="row row-cols-1 row-cols-md-4 g-4">
                 <div className="col">
                     <div className="card"> 
-                        <img src="/public/images/Sundarban.jpg" class="card-img-top" alt="..." />
+                        <img src="/OBT/images/Sundarban.jpg" class="card-img-top" alt="..." />
                         <div className="card-body ">
                             <h5 className="card-title">Sundarban</h5>
                             <p className="card-text">3 Nights & 4 Days</p>
