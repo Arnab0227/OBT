@@ -1,23 +1,23 @@
 export const Slidedata =[
     {
-        image: '/images/front-view.jpg'
+        image: '/OBT/images/front-view.jpg'
     },
     {
-        image: '/images/Ahaldara.jpeg'
+        image: '/OBT/images/Ahaldara.jpeg'
     },
     {
-        image: '/images/lepchajagat.jpg'
+        image: '/OBT/images/lepchajagat.jpg'
     },
     {
-        image: '/images/Sandaphu.jpg'
+        image: '/OBT/images/Sandaphu.jpg'
     },
     {
-        image: '/images/Sandaphu.jpg'
+        image: '/OBT/images/Sandaphu.jpg'
     },
     {
-        image: '/images/Sandaphu.jpg'
+        image: '/OBT/images/Sandaphu.jpg'
     },
     {
-        image: '/images/Sandaphu.jpg'
+        image: '/OBT/images/Sandaphu.jpg'
     },
 ];
