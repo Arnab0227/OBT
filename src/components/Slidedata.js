@@ -1,23 +1,23 @@
 export const Slidedata =[
     {
-        image: '/images/front-view.jpg'
+        image: '/OBT/images/front-view.jpg'
     },
     {
-        image: '/images/Ahaldara.jpeg'
+        image: '/OBT/images/Ahaldara.jpeg'
     },
     {
-        image: '/images/lepchajagat.jpg'
+        image: '/OBT/images/darjeeling.jpg'
     },
     {
-        image: '/images/Sandaphu.jpg'
+        image: '/OBT/images/cherapunji.jpg'
     },
     {
-        image: '/images/Sandaphu.jpg'
+        image: '/OBT/images/dooars.jpg'
     },
     {
-        image: '/images/Sandaphu.jpg'
+        image: '/OBT/images/meghalaya1.jpg'
     },
     {
-        image: '/images/Sandaphu.jpg'
+        image: '/OBT/images/purulia.jpg'
     },
 ];
